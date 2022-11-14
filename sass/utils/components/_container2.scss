@@ -1,0 +1,97 @@
+/* **********NUESTRO EQUIPO************* */
+@import "../variables";
+
+.container2-workteam {
+  padding-top: 0px;
+margin-top: 50px;
+padding-bottom: 94px;
+background: #f5f4fa;
+border-radius: 22px;
+}
+
+.container2-workteam-flex {
+  padding-top: 50px; /*arriba derecha abajo izquiera */
+padding-left: 0px;
+display: flex;
+justify-content: space-between;
+}
+
+.container2-workteam-flex h4 {
+  /*nombres */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding-top: 30px;
+  margin: 0px;
+  background: #FFFFFF;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  }
+  .container2-workteam-flex h5 {
+  /*cargos */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  background: #FFFFFF;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-top: 10px;
+  margin: 0px;
+  color: #757575;
+  }
+  .container2-workteam h2 {
+  /* nuestro equipo y a que nos dedicamos es solo el titulo que es h2*/
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-top: 100px;
+  color: #212121;
+  }
+.card {
+          width: 270px;
+        background: #ffffff;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        padding: 32px;
+
+        &__social {
+          display: flex;
+        justify-content: space-between;
+
+        }
+        &__social-container {
+          width: 44px;
+        height: 44px;
+        background-color: #ffffff;
+        border-radius: 22px;
+        padding: 12px;
+
+        }
+        &__social-icon {
+          width: 20px;
+        height: 20px;
+        fill: #afb1b8;
+
+        }
+        .card__social-container:hover {
+          background-color: #2196f3;
+          }
+          .card__social-container:hover .card__social-icon {
+          fill: #ffffff;
+          }
+          .card__social-icon:hover {
+          fill: white;
+          }
+
+        }
+

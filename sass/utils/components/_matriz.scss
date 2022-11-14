@@ -1,0 +1,92 @@
+@import "../variables";
+
+.matriz {
+  &__column {
+    padding-top: 56px;
+    border-radius: none;
+    box-shadow: none;
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 30px;
+  }
+  &__row{
+    list-style: none;
+    border-radius: none;
+    box-shadow: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    }
+  &__card{
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+
+  &__menu {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    text-decoration: none;
+    }
+
+  &__submenu {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-decoration: none;
+    }
+/* ******************transicion azul**************************************** */
+
+  &__card-box{
+    position: relative;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    }
+    &__card-box:hover .overlay {
+    transform: translatey(0);
+    }
+    }
+
+.overlay{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color:rgba(33, 150, 243, 0.9);
+transform: translatey(100%);
+/* transform:cubic-bezier(0.4, 0, 0.2, 1) */
+transition: transform 250ms ease;
+}
+
+.overlay > p {
+color: #fff;
+padding: 63px 24px;
+font-size: 18px;
+Font-family: Roboto;
+Font-style: Regular;
+Font-size: 18px;
+Line-height: 28px;
+Line-height: 133%;
+Vertical-align: top;
+Letter-spacing: 3%;
+}
+
+

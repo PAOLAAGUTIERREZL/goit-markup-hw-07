@@ -1,0 +1,63 @@
+@import "../variables";
+
+
+.cardsrow {
+  padding-top: 95px; /*arriba derecha abajo izquiera */
+padding-left: 0px;
+margin: 0px;
+border-radius: none;
+box-shadow: none;
+display: flex;
+justify-content: center;
+gap: 30px;
+
+&__description {
+  font-family: "Roboto";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+text-decoration: none;
+
+}
+&__service {
+  font-family: "Roboto";
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+text-decoration: none;
+
+}
+}
+
+.cardsrow-card {
+background-color: #f5f4fa;
+border-radius: 4px;
+width: 270px;
+height: 120px;
+padding: 30px 105px;
+
+}
+.cardsrow-card-icon {
+width: 65.32px;
+height: 70px;
+fill: black;
+
+}
+.services-tittle {
+font-family: "Roboto";
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+padding-top: 100px;
+color: #212121;
+
+}

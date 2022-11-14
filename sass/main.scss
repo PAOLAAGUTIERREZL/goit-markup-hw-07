@@ -1,0 +1,34 @@
+@use "./utils/variables";
+@use "./utils/components/box";
+@use "./utils/components/cardsrow";
+@use "./utils/components/client";
+@use "./utils/components/container1";
+@use "./utils/components/container2";
+@use "./utils/components/footer";
+@use "./utils/components/header";
+@use "./utils/components/matriz";
+@use "./utils/components/menu";
+
+
+
+
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+  }
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul {
+list-style: none;
+}
+
+.container {
+width: 1200px;
+margin: 0 auto;
+}
