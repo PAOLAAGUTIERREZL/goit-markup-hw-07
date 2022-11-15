@@ -1,4 +1,4 @@
-@import "../variables";
+@import "../utils/variables";
 
 
 .cardsrow {
@@ -12,7 +12,7 @@ justify-content: center;
 gap: 30px;
 
 &__description {
-  font-family: "Roboto";
+  font-family: $font-gral;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -23,7 +23,7 @@ text-decoration: none;
 
 }
 &__service {
-  font-family: "Roboto";
+  font-family: $font-gral;
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
@@ -50,7 +50,7 @@ fill: black;
 
 }
 .services-tittle {
-font-family: "Roboto";
+font-family: $font-gral;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;

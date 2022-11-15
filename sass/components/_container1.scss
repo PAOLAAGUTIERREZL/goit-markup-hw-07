@@ -1,5 +1,5 @@
 /* //a que nos dedicamos */
-@import "../variables";
+@import "../utils/variables";
 
 .container1{
       &__services {
@@ -34,7 +34,7 @@
         Font-size: 14px;
         vertical-align: bottom;
         Letter-spacing: 3%;
-        color: white;
+        color: $white-color;
         background: rgba(47, 48, 58, 0.8);
         }
 

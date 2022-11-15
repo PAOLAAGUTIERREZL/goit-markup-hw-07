@@ -1,4 +1,4 @@
-@import "../variables";
+@import "../utils/variables";
 
 
 .client{
@@ -11,7 +11,7 @@
   fill: #afb1b8;
   }
   &__style {
-    font-family: "Roboto";
+    font-family: $font-gral;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;

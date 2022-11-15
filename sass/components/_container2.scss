@@ -1,5 +1,5 @@
 /* **********NUESTRO EQUIPO************* */
-@import "../variables";
+@import "../utils/variables";
 
 .container2-workteam {
   padding-top: 0px;
@@ -18,35 +18,35 @@ justify-content: space-between;
 
 .container2-workteam-flex h4 {
   /*nombres */
-  font-family: 'Roboto';
+  font-family: $font-gral;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   padding-top: 30px;
   margin: 0px;
-  background: #FFFFFF;
+  background: $white-color;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
   }
   .container2-workteam-flex h5 {
   /*cargos */
-  font-family: 'Roboto';
+  font-family: $font-gral;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  background: #FFFFFF;
+  background: $white-color;
   text-align: center;
   letter-spacing: 0.03em;
   padding-top: 10px;
   margin: 0px;
-  color: #757575;
+  color: $submenu-color;
   }
   .container2-workteam h2 {
   /* nuestro equipo y a que nos dedicamos es solo el titulo que es h2*/
-  font-family: "Roboto";
+  font-family: $font-gral;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -58,7 +58,7 @@ justify-content: space-between;
   }
 .card {
           width: 270px;
-        background: #ffffff;
+        background: $white-color;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
@@ -72,7 +72,7 @@ justify-content: space-between;
         &__social-container {
           width: 44px;
         height: 44px;
-        background-color: #ffffff;
+        background-color: $white-color;
         border-radius: 22px;
         padding: 12px;
 
@@ -87,10 +87,10 @@ justify-content: space-between;
           background-color: #2196f3;
           }
           .card__social-container:hover .card__social-icon {
-          fill: #ffffff;
+          fill: $white-color;
           }
           .card__social-icon:hover {
-          fill: white;
+          fill: $white-color;
           }
 
         }

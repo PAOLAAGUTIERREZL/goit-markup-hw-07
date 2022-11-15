@@ -1,4 +1,4 @@
-@import "../variables";
+@import "../utils/variables";
 
   .header {
     margin:  0 auto;
@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   height: 80px;
-  background-color: #ffff;
+  background-color: $white-color;
 
   &__container {
     display: flex;
@@ -16,7 +16,7 @@
     font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  color: #2196f3;
+  color: $underline-color;
   text-decoration: none;
   cursor: pointer;
   font-family: 'Raleway', 'sans-serif';
@@ -36,12 +36,12 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   margin-right: 50px;
-  color: #757575;
+  color: $submenu-color;
   }
   &__icon {
     width: 16px;
   height: 16px;
-  fill: #757575;
+  fill: $submenu-color;
   }
   &__nav-link {
   color: #212121;
@@ -58,17 +58,17 @@
   cursor: pointer;
 }
 &__nav-link:hover {
-  color: var(--underline-color);
+  color: $underline-color;
   }
   &__contact:hover {
-    color: var(--underline-color);
+    color: $underline-color;
     }
 
     &__icon:hover {
-    fill: #2196f3;
+    fill: $underline-color;
     }
     &__contact:hover .header__icon {
-    fill: #2196f3;
+    fill: $underline-color;
     }
     .subrayado{
       text-decoration: none;
@@ -83,7 +83,7 @@
       margin: 0 auto;
       left: 0;
       right: 0;
-      background: #2196F3;
+      background: $underline-color;
       border-radius: 2px;
       }
 }

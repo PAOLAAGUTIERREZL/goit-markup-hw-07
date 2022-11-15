@@ -11,7 +11,7 @@
 
 .box-flex h2 {
   /*soluciones eficaces para su negocio*/
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -19,7 +19,7 @@
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: white;
 }
 
 .box__backdrop {
@@ -42,7 +42,7 @@
   align-items: center;
   padding: 10px 32px;
   gap: 10px;
-  color: #ffffff;
+  color: white;
   cursor: pointer;
   border-style: none;
   margin: auto;
@@ -54,7 +54,7 @@
   height: 700px;
   width: 528px;
   border-radius: 4px;
-  background: #fff;
+  background: white;
   margin-top: 221px;
 }
 .box__backdrop.is-hidden {
@@ -81,7 +81,7 @@
   height: 15px;
 }
 .modal__form p {
-  font-family: "Roboto";
+  font-family: Roboto;
   Font-style: normal;
   Font-size: 14px;
   line-height: 24px;
@@ -108,7 +108,7 @@
   padding-left: 30px;
 }
 .modal__title {
-  font-family: "Roboto";
+  font-family: Roboto;
   Font-style: normal;
   Font-size: 20px;
   line-height: 23px;
@@ -158,7 +158,7 @@
 }
 
 .box__modal textarea::placeholder {
-  font-family: "Roboto";
+  font-family: Roboto;
   font-size: 10px;
   color: #757575;
 }
@@ -183,13 +183,13 @@
   background-color: #2196F3;
   border: none;
   border-radius: 4px;
-  Font-family: "Roboto";
+  Font-family: Roboto;
   font-style: normal;
   font-size: 16px;
   line-height: 30px;
   line-height: 160%;
   letter-spacing: 6%;
-  color: #fff;
+  color: white;
   align-items: center;
   margin-left: 130px;
 }
@@ -205,7 +205,7 @@ button:hover {
 .label-checkmark {
   display: block;
   padding-left: 20px;
-  font-family: "Roboto";
+  font-family: Roboto;
   font-size: 14px;
   text-align: left;
   color: #757575;
@@ -237,7 +237,7 @@ button:hover {
 }
 
 .label-checkmark input[type=checkbox]:checked + .custom-checkmark .modal-form-svg-check {
-  fill: #FFFFFF;
+  fill: white;
 }
 
 .cardsrow {
@@ -251,7 +251,7 @@ button:hover {
   gap: 30px;
 }
 .cardsrow__description {
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -261,7 +261,7 @@ button:hover {
   text-decoration: none;
 }
 .cardsrow__service {
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -286,7 +286,7 @@ button:hover {
 }
 
 .services-tittle {
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -306,7 +306,7 @@ button:hover {
   fill: #afb1b8;
 }
 .client__style {
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -385,14 +385,14 @@ button:hover {
 
 .container2-workteam-flex h4 {
   /*nombres */
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   padding-top: 30px;
   margin: 0px;
-  background: #FFFFFF;
+  background: white;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -400,12 +400,12 @@ button:hover {
 
 .container2-workteam-flex h5 {
   /*cargos */
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  background: #FFFFFF;
+  background: white;
   text-align: center;
   letter-spacing: 0.03em;
   padding-top: 10px;
@@ -415,7 +415,7 @@ button:hover {
 
 .container2-workteam h2 {
   /* nuestro equipo y a que nos dedicamos es solo el titulo que es h2*/
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -428,7 +428,7 @@ button:hover {
 
 .card {
   width: 270px;
-  background: #ffffff;
+  background: white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   padding: 32px;
@@ -440,7 +440,7 @@ button:hover {
 .card__social-container {
   width: 44px;
   height: 44px;
-  background-color: #ffffff;
+  background-color: white;
   border-radius: 22px;
   padding: 12px;
 }
@@ -453,7 +453,7 @@ button:hover {
   background-color: #2196f3;
 }
 .card .card__social-container:hover .card__social-icon {
-  fill: #ffffff;
+  fill: white;
 }
 .card .card__social-icon:hover {
   fill: white;
@@ -469,7 +469,7 @@ footer {
 }
 
 .footer-email {
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -479,13 +479,13 @@ footer {
 }
 
 .footer-find {
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: white;
 }
 
 .footer-logo {
@@ -506,13 +506,13 @@ footer {
 }
 
 .footer-column-title {
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: white;
   margin-left: 50px;
   margin-top: 50px;
   padding-top: 1px;
@@ -550,13 +550,13 @@ footer {
   background-color: #2196F3;
   border: none;
   border-radius: 4px;
-  Font-family: "Roboto";
+  Font-family: Roboto;
   font-style: normal;
   font-size: 16px;
   line-height: 30px;
   line-height: 160%;
   letter-spacing: 6%;
-  color: #fff;
+  color: white;
   margin-top: 100px;
   margin-left: 20px;
 }
@@ -580,7 +580,7 @@ footer {
   padding: 8px;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  font-family: "Roboto";
+  font-family: Roboto;
   background-color: #2F303A;
   font-size: 16px;
   color: white;
@@ -588,18 +588,18 @@ footer {
 
 .footer-suscription-title {
   margin-top: 70px;
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-size: 14px;
   line-height: 16px;
   line-height: 100%;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: white;
   margin-left: 0px;
 }
 
 .footer-row-icon:hover {
-  fill: #ffffff;
+  fill: white;
 }
 
 .footer-row-container:hover {
@@ -607,7 +607,7 @@ footer {
 }
 
 .footer-row-container:hover .footer-row-icon {
-  fill: #ffffff;
+  fill: white;
 }
 
 address {
@@ -669,10 +669,10 @@ address {
   cursor: pointer;
 }
 .header__nav-link:hover {
-  color: var(--underline-color);
+  color: #2196f3;
 }
 .header__contact:hover {
-  color: var(--underline-color);
+  color: #2196f3;
 }
 .header__icon:hover {
   fill: #2196f3;
@@ -693,7 +693,7 @@ address {
   margin: 0 auto;
   left: 0;
   right: 0;
-  background: #2196F3;
+  background: #2196f3;
   border-radius: 2px;
 }
 
@@ -722,12 +722,12 @@ address {
   justify-content: space-between;
 }
 .matriz__card {
-  background: #ffffff;
+  background: white;
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .matriz__menu {
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -737,7 +737,7 @@ address {
   text-decoration: none;
 }
 .matriz__submenu {
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -770,8 +770,8 @@ address {
 }
 
 .overlay > p {
-  color: #fff;
-  padding: 63px 24px;
+  color: white;
+  padding: 63px 26px;
   font-size: 18px;
   Font-family: Roboto;
   Font-style: Regular;
@@ -807,7 +807,7 @@ address {
   cursor: pointer;
 }
 .menu__butoon:hover {
-  background-color: var(--underline-color);
+  background-color: #2196f3;
   color: white;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;

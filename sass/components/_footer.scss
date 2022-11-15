@@ -1,4 +1,4 @@
-@import "../variables";
+@import "../utils/variables";
 
 footer {
   height: 252px;
@@ -9,7 +9,7 @@ footer {
   background-color: #2f303a;
 }
 .footer-email {
-  font-family: "Roboto";
+  font-family: $font-gral;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -19,13 +19,13 @@ color: rgba(255, 255, 255, 0.6);
 
 }
 .footer-find {
-  font-family: "Roboto";
+  font-family: $font-gral;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
-color: #ffffff;
+color: $white-color;
 
 }
 .footer-logo {
@@ -46,13 +46,13 @@ margin-top: 0px;
 
 }
 .footer-column-title {
-font-family: "Roboto";
+font-family: $font-gral;
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
-color: #ffffff;
+color: $white-color;
 margin-left: 50px;
 margin-top: 50px;
 padding-top: 1px;
@@ -90,13 +90,13 @@ height: 50px;
 background-color: #2196F3;
 border: none;
 border-radius:4px;
-Font-family: "Roboto";
+Font-family: $font-gral;
 font-style:normal;
 font-size: 16px;
 line-height: 30px;
 line-height: 160%;
 letter-spacing: 6%;
-color: #fff;
+color: $white-color;
 margin-top: 100px;
 margin-left: 20px;
 }
@@ -120,34 +120,34 @@ height: 50px;
 padding: 8px;
 border-radius: 4px;
 border: 1px solid rgba(255, 255, 255, 0.3);
-font-family:"Roboto";
+font-family:$font-gral;
 background-color:#2F303A;
 font-size: 16px;
-color:#ffff;
+color:$white-color;
 
 }
 .footer-suscription-title {
   margin-top: 70px;
-font-family: "Roboto";
+font-family: $font-gral;
 font-style:normal;
 font-size: 14px;
 line-height: 16px;
 line-height: 100%;
 letter-spacing: 0.03em;
-color: #ffffff;
+color: $white-color;
 margin-left:0px;
 }
 
 
 
 .footer-row-icon:hover {
-  fill: #ffffff;
+  fill: $white-color;
   }
   .footer-row-container:hover {
   background-color: #2196f3;
   }
   .footer-row-container:hover .footer-row-icon{
-  fill: #ffffff;
+  fill: $white-color;
   }
 
 
